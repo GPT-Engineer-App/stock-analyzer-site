@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Box, Heading, Input, Button, Text, Image, Flex, Spacer, Table, Thead, Tbody, Tr, Th, Td, TableContainer } from "@chakra-ui/react";
 import { FaSearch } from "react-icons/fa";
 
-
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [stockData, setStockData] = useState(null);

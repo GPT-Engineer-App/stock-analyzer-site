@@ -3,9 +3,11 @@ import { Box, Heading, Input, Button, Text, Image, Flex, Spacer, Table, Thead, T
 import { FaSearch } from "react-icons/fa";
 
 
+
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [stockData, setStockData] = useState(null);
+  
 
   const handleSearch = () => {
     // TODO: API 호출하여 주식 데이터 가져오기
